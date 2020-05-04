@@ -1,4 +1,4 @@
-name: Rust
+name: Deploy Nightly
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: WebFreak001/deploy-nightly@v1.0.3
     - name: Build
       run: cargo build --verbose
     - name: Run tests
