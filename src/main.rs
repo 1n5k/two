@@ -1,13 +1,12 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 #[macro_use] extern crate rocket;
+#[macro_use] extern crate rocket_contrib;
 
-#[get("/")]
-fn hello() -> &'static str {
-    "HELLo, world!"
-}
+use rocket_contrib::serve::StaticFiles;
+
 
 fn rocket() -> rocket::Rocket {
-    rocket::ignite().mount("/", routes![hello])
+    rocket::ignite().mount("/", StaticFiles::from("static"))
 }
 
 fn main() {
@@ -24,7 +23,6 @@ mod test {
     fn test_hello() {
         let client = Client::new(rocket()).unwrap();
         let mut response = client.get("/").dispatch();
-        assert_eq!(response.status(), Status::Ok);
-        assert_eq!(response.body_string(), Some("HELLo, world!".into())); 
+        assert_eq!(response.status(), Status::Ok);        
     }
 }

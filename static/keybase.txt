@@ -1,0 +1,55 @@
+==================================================================
+ https://keybase.io/jnsk 
+-------------------------------------------------------------------- 
+
+I hereby claim:
+
+  * I am an admin of https://www.jnsk.info
+  * I am jnsk (https://keybase.io/jnsk) on keybase.
+  * I have a public key ASD7hjiV4dB32WuuL0-z2SmSFttdbRGRv_pSs2vKajMqgQo
+
+To do so, I am signing this object: 
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120274a93fcba6fbc03623ca8d3f3c9cc9c9a3810da1f20f52fb9cd8e1f6aa7e9020a",
+      "host": "keybase.io",
+      "kid": "0120fb863895e1d077d96bae2f4fb3d9299216db5d6d1191bffa52b36bca6a332a810a",
+      "uid": "f0ed4c1e900496dd10eb258805d7e819",
+      "username": "jnsk"
+    },
+    "merkle_root": {
+      "ctime": 1524909739,
+      "hash": 
+"ea5de91d1dc242bd3c926c8aa1bb7fad5887c291a95cd4f05036fe8fba6c57111d42a22c0569fe3d8e56ab2128782a053dd67674ce9da327cc0c9febf21d7aa6",
+      "hash_meta": "83cb81989530a46c1f4523f75425477974a6a37147a029c75b4b2ada072c0c7c",
+      "seqno": 2453316
+    },
+    "service": {
+      "entropy": "sze/JL7N6VGrDS/V7uS4MGiw",
+      "hostname": "www.jnsk.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1524909762,
+  "expire_in": 504576000,
+  "prev": "2e43194e05154eb661ebd20f7b1708769439b399d6eb592c0d227231c30c5180",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature: 
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+4Y4leHQd9lrri9Ps9kpkhbbXW0Rkb/6UrNrymozKoEKp3BheWxvYWTESpcCIMQgLkMZTgUVTrZh69IPexcIdpQ5s5nW61ksDSJyMcMMUYDEIMraTPZE0ML44GYBcCvgg456/J3C7x2zhqpcKW7okOTRAgHCo3NpZ8RAmJ1J1ZxqPi2h952VBO/JhQFgagMfEQP+w8jzFPTznPSki6XWLq7UWnEx/wrWcSiiPQe4+Yjmt0CFnB3P8TvqD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPaj/Rc0NORR+0eOQ54NSdLLF3wEjRx4snsrl3ygiu/Xo3RhZ80CAqd2ZXJzaW9uAQ== 
+
+And finally, I am proving ownership of this host by posting or appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jnsk
+
+==================================================================
